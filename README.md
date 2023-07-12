@@ -32,5 +32,5 @@ As seguintes métricas são geradas a partir dos modelos de classificação trei
 
 - ROC-AUC: medida de desempenho utilizada para avaliar a qualidade de um modelo de classificação binária. A curva ROC é obtida pela representação da taxa de verdadeiros positivos (TPR ou recall) em relação à taxa de falsos positivos (FPR ou 1 - Especificidade) para vários valores do limiar de classificação.
 
-A planilha [Métricas Finais.ods](Métricas/Métricas%20Finais.ods) 
+A planilha [Métricas Finais.ods](Métricas/Métricas%20Finais.ods) centraliza todos os arquivos .csv, contendo os resultados dos 3 cenários de análise. 
 

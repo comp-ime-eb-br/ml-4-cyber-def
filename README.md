@@ -1,6 +1,6 @@
 # ml-4-cyber-def
 
-Este repositório contém uma coleção de Jupyter Notebooks que implementam modelos de Machine Learning para classificação de ciberataques. Os notebooks foram criados como parte de um projeto de pesquisa em segurança da informação e foram utilizados para treinar e avaliar diferentes algoritmos de aprendizado de máquina, bem como técnicas de pré-processamento e refinamento de hiper-parâmetros para identificar e classificar tipos de ciberataques.
+Este repositório contém uma coleção de Jupyter Notebooks que implementam modelos de Machine Learning para classificação de ciberataques, além de métricas em formato csv (Comma-separated values) e uma planilha que engloba os resultados. Os notebooks foram criados como parte de um projeto de pesquisa em segurança da informação e foram utilizados para treinar e avaliar diferentes algoritmos de aprendizado de máquina, bem como técnicas de pré-processamento e refinamento de hiper-parâmetros para identificar e classificar tipos de ciberataques.
 
 ## Notebooks
 
@@ -12,7 +12,7 @@ Este repositório contém uma coleção de Jupyter Notebooks que implementam mod
 
 - [ASSEMBLE_FINAL_NO_PREPROC.ipynb](Programas/ASSEMBLE_FINAL_NO_PREPROC.ipynb): Notebook que realiza o treinamento automatizado de todos os modelos de Machine Learning para classificação de ciberataques e gera as métricas para análise com os datasets que não passaram pelas etapas de pré-processamento.
 
-- [Outros Notebooks]: Notebooks que testam o funcionamento de algoritmos separadamente.
+- Outros Notebooks: Os demais notebooks testam o funcionamento dos algoritmos separadamente, implementando os algoritmos Random Forest, Decision Treee, Naive Bayes, Support Vector Machines, XGBoost, K-Neighbors e Rede Neural Recorrente.
 
 ## Conjunto de Dados
 

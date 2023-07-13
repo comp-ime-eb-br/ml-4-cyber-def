@@ -12,7 +12,7 @@ Este repositório contém uma coleção de Jupyter Notebooks que implementam mod
 
 - [ASSEMBLE_FINAL_NO_PREPROC.ipynb](Programas/ASSEMBLE_FINAL_NO_PREPROC.ipynb): Notebook que realiza o treinamento automatizado de todos os modelos de Machine Learning para classificação de ciberataques e gera as métricas para análise com os datasets que não passaram pelas etapas de pré-processamento.
 
-- Outros Notebooks: Os demais notebooks testam o funcionamento dos algoritmos separadamente, implementando os algoritmos Random Forest, Decision Treee, Naive Bayes, Support Vector Machines, XGBoost, K-Neighbors e Rede Neural Recorrente.
+- Outros Notebooks: Os demais notebooks testam o funcionamento dos algoritmos separadamente, implementando os algoritmos Random Forest, Decision Treee, Naive Bayes, Support Vector Machines, XGBoost, K-Neighbors e Rede Neural.
 
 ## Conjunto de Dados
 

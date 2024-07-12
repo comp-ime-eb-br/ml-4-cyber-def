@@ -1,36 +1,35 @@
 # ml-4-cyber-def
 
-Este repositório contém uma coleção de Jupyter Notebooks que implementam modelos de Machine Learning para classificação de ciberataques, além de métricas em formato csv (Comma-separated values) e uma planilha que engloba os resultados. Os notebooks foram criados como parte de um projeto de pesquisa em segurança da informação e foram utilizados para treinar e avaliar diferentes algoritmos de aprendizado de máquina, bem como técnicas de pré-processamento e refinamento de hiper-parâmetros para identificar e classificar tipos de ciberataques.
+This repository contains a collection of Jupyter Notebooks that implement Machine Learning models for cyberattack classification, as well as metrics in CSV (Comma-separated values) format and a spreadsheet encompassing the results. The notebooks were created as part of an information security research project and were used to train and evaluate different machine learning algorithms, as well as preprocessing techniques and hyperparameter tuning to identify and classify types of cyberattacks.
 
 ## Notebooks
 
-- [preprocessing.ipynb](Programas/preprocessing.ipynb): Notebook responsável pela preparação e pré-processamento dos dados do dataset CSE-CIC-IDS2018 utilizados no treinamento dos modelos.
+- [preprocessing.ipynb](scripts/preprocessing.ipynb): Notebook responsible for the preparation and preprocessing of the CSE-CIC-IDS2018 dataset used in model training.
 
-- [preprocessing-kdd.ipynb](Programas/preprocessing-kdd.ipynb): Notebook responsável pela preparação e pré-processamento dos dados do dataset KDD-1999 utilizados no treinamento dos modelos.
+- [preprocessing-kdd.ipynb](scripts/preprocessing-kdd.ipynb): Notebook responsible for the preparation and preprocessing of the KDD-1999 dataset used in model training.
 
-- [ASSEMBLE_FINAL.ipynb](Programas/ASSEMBLE_FINAL.ipynb): Notebook que realiza o treinamento automatizado de todos os modelos de Machine Learning para classificação de ciberataques e gera as métricas para análise.
+- [ASSEMBLE_FINAL.ipynb](scripts/ASSEMBLE_FINAL.ipynb): Notebook that performs automated training of all Machine Learning models for cyberattack classification and generates metrics for analysis.
 
-- [ASSEMBLE_FINAL_NO_PREPROC.ipynb](Programas/ASSEMBLE_FINAL_NO_PREPROC.ipynb): Notebook que realiza o treinamento automatizado de todos os modelos de Machine Learning para classificação de ciberataques e gera as métricas para análise com os datasets que não passaram pelas etapas de pré-processamento.
+- [ASSEMBLE_FINAL_NO_PREPROC.ipynb](scripts/ASSEMBLE_FINAL_NO_PREPROC.ipynb): Notebook that performs automated training of all Machine Learning models for cyberattack classification and generates metrics for analysis with datasets that have not undergone preprocessing steps.
 
-- Outros Notebooks: Os demais notebooks testam o funcionamento dos algoritmos separadamente, implementando os algoritmos Random Forest, Decision Treee, Naive Bayes, Support Vector Machines, XGBoost, K-Neighbors e Rede Neural.
+- Other Notebooks: The other notebooks test the performance of algorithms separately, implementing Random Forest, Decision Tree, Naive Bayes, Support Vector Machines, XGBoost, K-Neighbors, and Neural Network algorithms.
 
-## Conjunto de Dados
+## Datasets
 
-Os conjuntos de dados utilizados para treinamento e teste dos modelos foram o [KDD-1999](https://kdd.org/kdd-cup/view/kdd-cup-1999) e o [CSE-CIC-IDS2018](https://registry.opendata.aws/cse-cic-ids2018).
+The datasets used for training and testing the models were [KDD-1999](https://kdd.org/kdd-cup/view/kdd-cup-1999) and [CSE-CIC-IDS2018](https://registry.opendata.aws/cse-cic-ids2018).
 
-## Métricas
+## Metrics
 
-As seguintes métricas são geradas a partir dos modelos de classificação treinados:
+The following metrics are generated from the trained classification models:
 
-- Acurácia: proporção de instâncias corretamente classificadas em relação ao total de instâncias.
+- Accuracy: the proportion of correctly classified instances relative to the total number of instances.
 
-- Precisão: proporção de instâncias positivas corretamente classificadas em relação ao total de instâncias classificadas como positivas.
+- Precision: the proportion of correctly classified positive instances relative to the total number of instances classified as positive.
 
-- Recall (Revocação): proporção de instâncias positivas corretamente classificadas em relação ao total de instâncias reais positivas.
+- Recall: the proportion of correctly classified positive instances relative to the total number of actual positive instances.
 
-- F1-Score: média harmônica entre precisão e recall, fornecendo uma medida equilibrada entre as duas métricas anteriores.
+- F1-Score: the harmonic mean between precision and recall, providing a balanced measure between the two previous metrics.
 
-- ROC-AUC: medida de desempenho utilizada para avaliar a qualidade de um modelo de classificação binária. A curva ROC é obtida pela representação da taxa de verdadeiros positivos (TPR ou recall) em relação à taxa de falsos positivos (FPR ou 1 - Especificidade) para vários valores do limiar de classificação.
+- ROC-AUC: a performance measure used to evaluate the quality of a binary classification model. The ROC curve is obtained by plotting the true positive rate (TPR or recall) against the false positive rate (FPR or 1 - Specificity) for various classification threshold values.
 
-A planilha [Métricas Finais.ods](Métricas/Métricas%20Finais.ods) centraliza todos os arquivos .csv, contendo os resultados dos 3 cenários de análise. 
-
+The spreadsheet [Final Metrics.ods](metrics/Final%20Metrics.ods) centralizes all the .csv files, containing the results of the 3 analysis scenarios.
